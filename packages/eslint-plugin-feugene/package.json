@@ -1,8 +1,8 @@
 {
-  "name": "eslint-plugin-antfu",
+  "name": "eslint-plugin-feugene",
   "version": "0.38.5",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/efureev/eslint-config",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,10 +16,10 @@
     "prepublishOnly": "nr build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.59.0"
+    "@typescript-eslint/utils": "^5.59.1"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.16.1",
     "unbuild": "^1.2.1",
     "vitest": "^0.30.1"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@antfu/eslint-config-vue",
+  "name": "@feugene/eslint-config-vue",
   "version": "0.38.5",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
@@ -15,12 +15,12 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "workspace:*",
-    "@antfu/eslint-config-ts": "workspace:*",
+    "@feugene/eslint-config-basic": "workspace:*",
+    "@feugene/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.11.0",
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.39.0"
   }
 }

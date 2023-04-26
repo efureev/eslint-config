@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'feugene',
     'no-only-tests',
     'unused-imports',
   ],
@@ -371,10 +371,10 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
-    'antfu/top-level-function': 'error',
-    // 'antfu/prefer-inline-type-import': 'error',
+    // feugene
+    'feugene/if-newline': 'error',
+    'feugene/import-dedupe': 'error',
+    'feugene/top-level-function': 'error',
+    // 'feugene/prefer-inline-type-import': 'error',
   },
 }

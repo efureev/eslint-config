@@ -1,0 +1,6 @@
+{
+  "extends": "@feugene",
+  "plugins": [
+    "feugene"
+  ]
+}
