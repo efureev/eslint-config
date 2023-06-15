@@ -1,6 +1,6 @@
 {
   "name": "@feugene/eslint-config-ts",
-  "version": "0.38.5",
+  "version": "0.39.5",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
   "license": "MIT",
@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@feugene/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.59.1",
-    "@typescript-eslint/parser": "^5.59.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
     "eslint-plugin-jest": "^27.2.1"
   },
   "devDependencies": {
-    "eslint": "^8.39.0"
+    "eslint": "^8.41.0"
   }
 }

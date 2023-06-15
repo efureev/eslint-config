@@ -72,7 +72,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/no-require-imports': 'error',
-
     // Override JS
     'no-useless-constructor': 'off',
     'indent': 'off',
@@ -157,6 +156,8 @@ module.exports = {
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
     // antfu
+    'feugene/no-cjs-exports': 'error',
+    'feugene/no-ts-export-equal': 'error',
     'feugene/generic-spacing': 'error',
 
     // off
